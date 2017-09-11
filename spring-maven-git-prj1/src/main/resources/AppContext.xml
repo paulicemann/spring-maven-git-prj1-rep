@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="t1000component1" class="com.pauliceman.study.spring.a001.implsrobot.T1000">
+	<constructor-arg ref="SonyHead"></constructor-arg>
+	</bean>
+	
+	
+	<bean id="SonyHead"
+		class="com.pauliceman.study.spring.a001.sonyimplements.SonyHead">
+	</bean>
+</beans>
